@@ -4,3 +4,30 @@
 .hidden {
     display: none;
 }
+
+#container {
+    width: 428px;
+    margin: 20px;
+    border: solid 1px #333;
+    border-radius: 10px;
+    background-color: #efefef;
+}
+
+#main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 85px);
+    grid-column-gap: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+article {
+    grid-column: 1/-1;
+}
+
+body {
+    font-family: 'Catamaran', arial, sans-serif;
+    font-size: 20px;
+    color: #131313;
+    font-weight: 100;
+}
